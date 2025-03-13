@@ -1,7 +1,6 @@
 pipeline {
 	agent any
-
-    stages {
+     stages {
 		stage('Compile and Clean') {
 			steps {
 				// Run Maven on a Unix agent.
